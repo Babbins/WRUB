@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $( "td" ).hover(function() {
-    //alert("testing mouse enter");
+  $( "td" ).onClick(function() {
+    alert("testing mouse enter");
   });
 });
