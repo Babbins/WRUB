@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  $( "td" ).onClick(function() {
-    alert("testing mouse enter");
+  $( "td" ).mouseover(function() {
+    $(this).addClass('hover');
+  });
+  $( "td" ).mouseout(function() {
+    $(this).removeClass('hover');
   });
 });

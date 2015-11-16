@@ -1,14 +1,17 @@
-th{
-  text-align: center;
+.table>tbody>tr>td{
+  vertical-align: middle;
 }
-table tr td{
-  border-bottom: 1px solid #eeeeee;
+table tr td, table tr th{
   border-top: 1px solid #eeeeee;
   border-right: thin solid #000;
-  border-left: thin solid #000;
   text-align:center;
-  border-collapse:
+  font-family: Arial;
+  color: #800;
 }
-td:empty{
-  border-bottom: 1px solid #fff;
+.hover{
+  background-color: #eee;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
