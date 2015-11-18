@@ -1,6 +1,13 @@
 .table>tbody>tr>td{
   vertical-align: middle;
 }
+a{
+  text-decoration: none;
+  color:#800;
+}
+a:hover{
+  color: #800;
+}
 table tr td, table tr th{
   border-top: 1px solid #eeeeee;
   border-right: thin solid #000;
